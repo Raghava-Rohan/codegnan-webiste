@@ -14,7 +14,8 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 5%;
+  margin-top: 5%;
+  margin-bottom: 2%;
 }
 .main-heading{
   color: #1ab69d;
@@ -23,27 +24,39 @@ body{
 
 .heading{
   color: #1ab69d;
-  font-size: large;
+  font-size: 20px;
   font-weight: 550;
 }
 
 .sub-heading{
   font-weight: bolder;
+  font-size: larger;
 }
 
 .bold{
   font-weight: bold;
 }
+
 .card{
-  border: 2px solid gray;
+  border: 2px solid rgb(157, 157, 157,0.5);
   border-radius: 7px;
+  padding: 4%;
+}
+ 
+.card:hover{
+  transform: scale(1.02);
+  transition:  250ms ease-in-out;
+  cursor: pointer;
+}
+.card-text{
+  font-size: 19px;
 }
 
 .card-link{
   font-weight: bold;
   text-decoration: none;
   font-size: 18px;
-  color: #ee4a62;
+  color: #d12640eb;
 }
 
 .card-link:hover{
@@ -51,6 +64,16 @@ body{
 }
 
 .caption{
-  font-size: 20px;
-  padding: 10%;
+  font-size: 21px;
+}
+
+.caption-section{
+background-color: rgb(251, 252, 252);
+padding: 2%;
+margin-bottom: 3%;
+}
+
+.main{
+  width: 1000px;
+  margin: 1% auto;
 }
